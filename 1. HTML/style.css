@@ -1,0 +1,67 @@
+/* CSS stílusokat itt adhatsz meg */
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Világoskék háttér */
+    transition: background-color 0.5s ease; /* Áttűnés a háttérszín változásához */
+}
+
+header {
+    background-color: #1976d2; /* Sötétkék fejléc */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    transition: background-color 0.5s ease; /* Áttűnés a háttérszín változásához */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Árnyék a fejléchez */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Könnyű árnyék a szekciókhoz */
+    transition: box-shadow 0.3s ease; /* Áttűnés az árnyék változásához */
+}
+
+section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Nagyobb árnyék a hover eseményre */
+}
+
+section img {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    background-color: #90caf9; /* Világoskék háttérszín a képek körül */
+    border-radius: 10px; /* Kerekített sarkok */
+}
+
+section h2 {
+    color: #1565c0; /* Sötétkék szöveg */
+}
+
+section p {
+    color: #333; /* Sötétszürke szöveg */
+    text-align: justify; /* Sorkizárt formázás */
+}
+
+footer {
+    background-color: #1976d2; /* Sötétkék lábléc */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+}

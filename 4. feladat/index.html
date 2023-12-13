@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termékkezelés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Termékkezelés</h2>
+
+<div>
+    <label for="productName">Termék neve:</label>
+    <input type="text" id="productName">
+</div>
+
+<div>
+    <label for="productPrice">Termék ára:</label>
+    <input type="number" id="productPrice">
+</div>
+
+<button onclick="addProduct()">Termék hozzáadása</button>
+<button onclick="calculateStatistics()">Statisztika számolása</button>
+
+<div id="productList">
+    <h3>Bevitt termékek:</h3>
+    <ul id="products"></ul>
+</div>
+
+<div id="results">
+    <h3>Eredmények:</h3>
+    <p id="statistics"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
